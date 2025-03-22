@@ -1,0 +1,279 @@
+.navbar-custom {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: #000;
+    text-align: left;
+}
+.hero-section h1 {
+    font-weight: bold;
+}
+.contact-section {
+    background-color: #f1f6fa;
+    padding: 50px 0;
+}
+.footer {
+    background: #012b4e;
+    padding: 20px;
+    -webkit-text-fill-color: #f1f6fa;
+    text-align: center;
+}
+.radically-section {
+    background-color: #f1f6fa;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.blue-button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.services-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.services-section h2 {
+    margin-bottom: 30px;
+}
+.services-section .service-stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.services-section .service-stats div {
+    margin: 0 20px;
+}
+.services-section .service-stats div h3 {
+    font-size: 2em;
+    color: #0d6efd;
+}
+.services-section .service-stats div p {
+    font-size: 1.1em;
+}
+.partners-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+.partners-section img {
+    margin: 10px;
+    max-height: 50px;
+}
+.pricing-section {
+    padding: 80px 0;
+  }
+  .pricing-toggle {
+    background-color: #F0F9FF;
+    border-radius: 30px;
+    padding: 5px;
+    max-width: 240px;
+    margin: 0 auto 40px;
+  }
+  .pricing-toggle button {
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    padding: 8px 20px;
+    color: #292D33;
+  }
+  .pricing-toggle button.active {
+    background-color: #185CFF;
+    color: white;
+  }
+  .pricing-card {
+    border: 1px solid #F1F6FA;
+    border-radius: 6px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    transition: all 0.3s ease;
+  }
+  .pricing-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+  .pricing-level {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .pricing-price {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .pricing-unit {
+    font-size: 16px;
+    color: #9497A1;
+  }
+  .pricing-description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .pricing-features li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+  }
+  .contact-section {
+    padding: 80px 0;
+    background-color: #f9fafc;
+  }
+  .contact-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .contact-hr {
+    height: 3px;
+    background-color: #185CFF;
+    width: 50px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    margin-top: 40px;
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contact-icon {
+    width: 24px;
+    color: #185CFF;
+    margin-right: 15px;
+  }
+  .contact-form label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  .contact-form .form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 12px 15px;
+  }
+  .send-btn {
+    padding: 10px 30px;
+    border-radius: 6px;
+  }
+  
+  /* Newsletter Section */
+  .newsletter-section {
+    padding: 80px 0;
+    background-color: #0c2238;
+    color: white;
+  }
+  .newsletter-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .newsletter-description {
+    opacity: 0.8;
+  }
+  .newsletter-form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .newsletter-form .form-control {
+    height: 50px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+  }
+  .newsletter-form .btn {
+    height: 50px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    padding: 0 30px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #0c2238;
+    color: white;
+    padding: 60px 0 30px;
+  }
+  .footer-logo {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .footer-description {
+    opacity: 0.7;
+    margin-bottom: 25px;
+  }
+  .footer-social {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  .social-icon:hover {
+    background-color: #185CFF;
+  }
+  .footer-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .footer-links, .footer-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-links li {
+    margin-bottom: 15px;
+  }
+  .footer-links a {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+    color: #185CFF;
+  }
+  .footer-contact li {
+    margin-bottom: 15px;
+    opacity: 0.7;
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 30px;
+    margin-top: 40px;
+  }
+  .copyright {
+    opacity: 0.7;
+    margin-bottom: 0;
+  }
+  .privacy-link, .terms-link {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  .privacy-link:hover, .terms-link:hover {
+    opacity: 1;
+  }
