@@ -173,11 +173,11 @@
                 <h1>Trusted by the best in the business</h1>
             </div>
             <div class="col" style="text-align: center;">
-                <button type="button" class="btn btn-primary btn-lg" aria-label="Back">
+                <button type="button" class="btn btn-lg" aria-label="Back" style="background-color: #f0f9ff;">
                     <i class="fa-solid fa-arrow-left"></i>
                 </button>
-                <button type="button" class="btn btn-primary btn-lg" aria-label="Next">
-                    <i class="fa-solid fa-arrow-right"></i>
+                <button type="button" class="btn btn-lg" aria-label="Next" style="background-color: #f0f9ff;">
+                    <i class="fa-solid fa-arrow-right" ></i>
                 </button>
             </div>
         </div>
@@ -244,7 +244,6 @@
                         <div class="mb-3">
                           <label for="Email" class="form-label">Email address</label>
                           <input type="email" class="form-control" id="Email" required>
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
                           <label for="Theme" class="form-label">Theme</label>
@@ -254,7 +253,9 @@
                             <label for="Message" class="form-label">Your Message</label>
                             <textarea class="form-control" id="Message" rows="3" required></textarea>
                         </div>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SubmitModal">Submit</button>
+                        <div style="text-align: right;">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SubmitModal">Send</button>
+                      </div>
                       </form>
                 </div>
             </div>
@@ -269,11 +270,16 @@
             </div>
             <div class="col justify-content-center" style="padding: 40px;">
                 <form>
-                    <div class="mb-3">
-                      <input type="email" class="form-control" id="newsletterEmail" placeholder="Email" required>
+                  <div class="row-lg-6">
+                    <div class="newsletter-form">
+                      <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#SubmitModal">Send</button>
+                      </div>
                     </div>
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#SubmitModal">Submit</button>
+                  </div>
                 </form>
+            </div>
             </div>
         </div>
     </footer>
@@ -286,40 +292,69 @@
               <p class="footer-description" style="padding-top: 10px; color: gray;">Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
+
+            </div>
+            <div class="col-lg-3 mb-4 mb-lg-0">
               <h5 class="footer-heading">Quick link</h5>
-              <ul class="footer-links">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/solutions.html">Solutions</a></li>
-                <li><a href="/about.html">About Us</a></li>
+              <ul class="footer-links" style="list-style-type: none;">
+                <li><a href="/index.html" style="text-decoration: none; color: gray;">Home</a></li>
+                <li><a href="/solutions.html" style="text-decoration: none; color: gray;">Solutions</a></li>
+                <li><a href="/about.html" style="text-decoration: none; color: gray;">About Us</a></li>
               </ul>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
               <h5 class="footer-heading">Service</h5>
-              <ul class="footer-links">
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Elements</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Site map</a></li>
+              <ul class="footer-links" style="list-style-type: none;">
+                <li><a href="#" style="text-decoration: none; color: gray;">Pages</a></li>
+                <li><a href="#" style="text-decoration: none; color: gray;">Elements</a></li>
+                <li><a href="#" style="text-decoration: none; color: gray;">FAQ</a></li>
+                <li><a href="#" style="text-decoration: none; color: gray;">Pricing</a></li>
+                <li><a href="#" style="text-decoration: none; color: gray;">Site map</a></li>
+              </ul>
+            </div>
+
+            <hr style="margin-top: 10px; margin-bottom: 10px;">
+
+            <h5 class="footer-heading">Contacts</h5>
+            <div class="col-lg-3">
+            
+              <ul class="footer-contact" style="list-style-type:none;">
+                <li><p style="color: gray">+1 601-201-5580</p></li> 
+                <li><a href="mailto:ensome@info.co.us" style="color: black;text-decoration: none;"><p>ensome@info.co.us   <i class="fa-solid fa-arrow-right"></i></p></a></li>
               </ul>
             </div>
             <div class="col-lg-3">
-              <h5 class="footer-heading">Contact info</h5>
-              <ul class="footer-contact">
-                <li>ensome@info.co.us</li>
-                <li>+1 601-201-5580</li>
-                <li>1642 Washington Avenue, Jackson, MS, Mississippi, 39201</li>
+              <ul class="footer-contact" style="list-style-type:none;">
+                <li><p style="color: gray; min-width: 500px;">1642 Washington Avenue, Jackson, MS, Mississippi, 39201</p></li> 
+                <li><a href="mailto:ensome@info.co.us" style="color: black;text-decoration: none;"><p>Driving directions  <i class="fa-solid fa-arrow-right"></i></p></a></li>
               </ul>
             </div>
+            <div class="col">
+
+            </div>
+            <div class="col-lg-3">
+            <div class="footer-social">
+              <p>Socials</p>
+              <i class="fa-brands fa-facebook" style="color: #185CFF; padding: 5px;"></i>
+              <i class="fa-brands fa-twitter" style="color: #185CFF; padding: 5px;"></i>
+              <i class="fa-brands fa-linkedin" style="color: #185CFF; padding: 5px;"></i>
+              <i class="fa-brands fa-youtube" style="color: #185CFF; padding: 5px;"></i>
+              <i class="fa-brands fa-dribbble" style="color: #185CFF; padding: 5px;"></i>
+              <i class="fa-brands fa-behance" style="color: #185CFF; padding: 5px;"></i>
+            </div>
+            </div>
           </div>
+
+          <hr style="margin-top: 10px; margin-bottom: 10px;">
+
           <div class="footer-bottom">
             <div class="row">
               <div class="col-md-6">
                 <p class="copyright">© Ensome 2022 All Rights Reserved</p>
               </div>
               <div class="col-md-6 text-md-end">
-                <a href="#" class="privacy-link">Privacy policy</a>
-                <a href="#" class="terms-link">Terms of Use</a>
+                <a href="#" class="privacy-link" style="text-decoration: none; color: gray;">Privacy policy   <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="terms-link" style="text-decoration: none; color: gray">Terms of Use   <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
