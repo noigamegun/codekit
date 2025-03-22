@@ -9,12 +9,13 @@ Codekit's Web Development Competition
 
 ## Website Details
 
-<!-- Few sentence explaination. -->
+Ensome is a data analytics company that helps businesses to find true power in their data.
 
 ## Used Libaries And Frameworks
 
-<!-- List frameworks -->
+Bootstrap 5.3
 
 ## Features
 
-<!-- List features. Bullet Points. -->
+- Fully functioning contact and newsletter form.
+- Fully compressed images (Some pages contains too many images to be loaded in 3 seconds)
