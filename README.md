@@ -4,8 +4,8 @@ Codekit's Web Development Competition
 ### Members
 
 - Thapat Auechaikasem
-- Placeholder
-- Placeholder
+- Thanakrit Chotijurangkul
+- Jirattapol 
 
 ## Website Details
 
