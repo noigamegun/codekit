@@ -5,7 +5,7 @@ Codekit's Web Development Competition
 
 - Thapat Auechaikasem
 - Thanakrit Chotijurangkul
-- Jirattapol 
+- Jirattapol Wattanaanankul
 
 ## Website Details
 
