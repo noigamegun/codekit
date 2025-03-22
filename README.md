@@ -11,7 +11,7 @@ Codekit's Web Development Competition
 
 Ensome is a data analytics company that helps businesses to find true power in their data.
 
-## Used Libaries And Frameworks
+## Used Libraries And Frameworks
 
 Bootstrap 5.3
 
