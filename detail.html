@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="cat.css">
 </head>
 <body style="background-color: #1a1a1e;">
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  style="font-weight: bold;">
         <div class="container-fluid">
           <a class="navbar-brand" href="/" style="color: #91d206;">ShopSphere</a>
@@ -89,5 +88,28 @@
         </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <script>
+  // Get URL parameters
+  const urlParams = new URLSearchParams(window.location.search);
+  const imgPath = urlParams.get('img'); // Image URL
+  const name = urlParams.get('name'); // Product name
+  const description = urlParams.get('des'); // Product description
+
+  // Select the specific section
+  const detailSection = document.querySelector('.col.m-3');
+
+  // Replace placeholders if parameters are provided
+  if (imgPath) {
+    detailSection.querySelector('.detail-img').src = imgPath;
+  }
+  if (name) {
+    detailSection.querySelector('h1').textContent = name;
+  }
+  if (description) {
+    detailSection.querySelector('p').textContent = description;
+  }
+</script>
+
 </body>
 </html>
